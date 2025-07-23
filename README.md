@@ -56,7 +56,7 @@ Users should be able to:
 
 ### What I learned
 
-For me I consider this project as the best and most organized one. Used regex, set data structure, intersection observer, lazyload idea for loading small batches of the total to-dos saved in the local storage, window match media for applying the OS preferd color theme using "prefered-color-scheme" media query, and drag-and-drop list items, all in order to actually code what I had in mind since i started this project. I think this is the most readable and reuseable code for a project I've ever done.  
+For me I consider this project as the best and most organized one. Used regex, set data structure, intersection observer, lazyload idea for loading small batches of the total to-dos saved in the local storage, window match media for applying the OS preferd color theme using "prefered-color-scheme" media query, and drag-and-drop list items, all in order to actually code what I had in mind since I started this project. Also it was my first experience customizing the scroll bar which looked so good on basic and hover states. I think this is the most readable and reuseable code for a project I've ever done.  
 
 ### Continued development
 
