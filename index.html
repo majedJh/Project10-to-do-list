@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/framework.css">
+  <link rel="stylesheet" href="/css/master.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      color: #888;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page-container p-relative">
+    <div class="to-do-container p-absolute">
+      <div class="to-do-header between-flex">
+        <button class="logo center-flex">TODO</button>
+        <div class="lighting-mode" role="button" tabindex="0">
+          <img src="" alt="">
+        </div>
+      </div>
+      <ul>
+        <li class="d-flex item-input">
+          <div class="check-circle center-flex"><img src="" alt=""></div>
+          <textarea name="" id="" placeholder="Create a new To-do" maxlength="50"></textarea>
+        </li>
+        <li>
+          <div class="items-list">
+          </div>
+          <div class="toolbox d-flex">
+            <div class="items-count">0 items left</div>
+            <ul class=" d-flex group-select">
+              <li class="option all selected" role="button" tabindex="0">All</li>
+              <li class="option active" role="button" tabindex="0">Active</li>
+              <li class="option completed" role="button" tabindex="0">Completed</li>
+            </ul>
+            <button class="clear-completed">Clear Completed</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+      <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/majedJh/">MHD Majed Aljajeh</a>.
+    </div> 
+    </div>
+</body>
+
+</html>
